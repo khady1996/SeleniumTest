@@ -1,0 +1,250 @@
+{
+  "id": "589793d0-32d5-45b8-948d-56baffcd5ce4",
+  "version": "2.0",
+  "name": "TDD1",
+  "url": "https://www.google.com/",
+  "tests": [{
+    "id": "29d9164b-c03b-4d17-ba9a-36a66a1d42e4",
+    "name": "JAVADOC",
+    "commands": [{
+      "id": "c0e74b3c-b83f-4f21-8b9e-73a0cf08c1c5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e43e94b4-5c58-4107-b21e-75a9c025ef88",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x705",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "021d52e2-a781-41b2-ade4-5e4d3284201e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "3f99ae4f-5592-44d3-b7a5-6706c804f95d",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "javadoc assert"
+    }, {
+      "id": "fffcfc01-06ee-4e9f-8ef2-9a2d9cccfd82",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6a4a5a41-4a2d-4f51-bb1a-43bb54bd1049",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g:nth-child(2) .LC20lb",
+      "targets": [
+        ["css=.g:nth-child(2) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div[2]/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Assert - Javadoc.IO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "598f58bd-86b5-467e-a966-df76a658dda7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.subNav:nth-child(4) > .navList:nth-child(2) > li:nth-child(1) > a",
+      "targets": [
+        ["css=.subNav:nth-child(4) > .navList:nth-child(2) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Frames')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '../../index.html?org/testng/Assert.html')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0d1f6d4-494c-4d15-a20c-f7bb799ea535",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a9bfccc-bc5b-4195-a1ed-1b5aeb68e2e9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Assert",
+      "targets": [
+        ["linkText=Assert", "linkText"],
+        ["css=li:nth-child(14) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Assert')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'org/testng/Assert.html')]", "xpath:href"],
+        ["xpath=//li[14]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d55251d-f004-4a18-990b-fe7128404ba9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "01e410fc-b7c9-4b13-9042-957241451c22",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "d15c4336-aa59-46db-9279-5422098c31ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=i18",
+      "targets": [
+        ["id=i18", "id"],
+        ["css=#i18", "css:finder"],
+        ["xpath=//tr[@id='i18']", "xpath:attributes"],
+        ["xpath=//tr[20]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11b188ea-3b3a-438d-8bfa-be3185d4aee8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i18 > .colLast",
+      "targets": [
+        ["css=#i18 > .colLast", "css:finder"],
+        ["xpath=//tr[@id='i18']/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[20]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a48f057c-cf4a-43b9-bd60-a6305489756b",
+    "name": "ENSUP",
+    "commands": [{
+      "id": "da7e118d-9766-4193-be79-f862391441df",
+      "comment": "",
+      "command": "open",
+      "target": "https://ensup.eu/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec586ba1-8a3f-4885-9f79-d061f90366f0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x705",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c9db268-3e45-4efe-a5f4-f58a17ce4728",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Informatique",
+      "targets": [
+        ["linkText=Informatique", "linkText"],
+        ["css=#menu-item-1671 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Informatique')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-1671']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ensup.eu/informatique/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Informatique')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "af4bd2d5-5431-48f0-ac96-25c256988603",
+    "name": "GOOGLE",
+    "commands": [{
+      "id": "2f68db30-b167-4f34-8a24-7c116fff9d75",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82a65e2a-4a44-421a-b58c-28d3137aeee4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x690",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "439ae276-a1d8-4b61-bc28-7154a3fe3a7b",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "javadoc assert"
+    }, {
+      "id": "e4525faf-597d-4b77-b668-b913ee9c5d02",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a87ca199-8c17-4cb9-8e88-0978ec477fbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g:nth-child(2) .LC20lb",
+      "targets": [
+        ["css=.g:nth-child(2) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div[2]/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Assert - Javadoc.IO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9c71502b-1cfb-49a2-8bf6-8c6328df0f4a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["29d9164b-c03b-4d17-ba9a-36a66a1d42e4"]
+  }],
+  "urls": ["https://www.google.com/", "https://ensup.eu/"],
+  "plugins": []
+}
